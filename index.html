@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guilherme Andrade | Instalação de Portas </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="container header-row">
+      <div class="brand">
+        <strong>Guilherme Andrade</strong>
+        <span>CNPJ: 582905970000136 • Brasília-DF</span>
+      </div>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">
+        <div class="bars">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+
+      <nav class="nav-desktop">
+        <a href="#">Home</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+
+    <div class="container">
+      <nav class="nav-mobile" id="navMobile">
+        <a href="#galeria" class="nav-link">Galeria</a>
+        <a href="#contato" class="nav-link">Contato</a>
+        <a href="https://wa.me/5561993601769" target="_blank" class="btn btn-primary">
+          Chamar no WhatsApp
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero-card">
+
+          <div class="pill"> Instalação Profissional</div>
+
+          <h1>Instalação de Portas Kit porta pronta .</h1>
+          <p>
+            Atendimento em Brasília-DF. Instalação de portas de giro, portas de correr, usinagem e reduções.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn btn-primary" href="https://wa.me/5561993601769" target="_blank">
+              Falar no WhatsApp
+            </a>
+            <a class="btn btn-outline" href="portfolio-completo.html">
+              Ver fotos do serviço
+            </a>
+          </div>
+
+          <div class="mini">
+            <span>✔ Pontualidade</span>
+            <span>✔ Acabamento limpo</span>
+            <span>✔ Serviço garantido</span>
+            <span>✔ Experiência de Mercado</span>
+            <span>✔ Instalador parceiro PORMADE</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="stats">
+          <div class="stat">
+            <strong>4+</strong>
+            <span>Anos de experiência</span>
+          </div>
+          <div class="stat">
+            <strong>+1000</strong>
+            <span>Portas instaladas</span>
+          </div>
+          <div class="stat">
+            <strong>100%</strong>
+            <span>Preço justo</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="galeria">
+      <div class="container">
+        <h2 class="title">Galeria</h2>
+        <p class="subtitle">Alguns exemplos do padrão de acabamento (clique para ampliar).</p>
+
+        <div class="gallery" id="gallery">
+          <!-- Você pode trocar essas imagens pelas suas -->
+          <div class="shot" data-title="Porta pivotante">
+            <img src="fts/9.jpeg" alt="">
+            <div class="tag">Porta de giro - Branca</div>
+          </div>
+
+          <div class="shot" data-title="Fechadura digital">
+            <img src="fts/3.jpeg" alt="">
+            <div class="tag">Porta de giro - Cinza</div>
+          </div>
+
+          <div class="shot" data-title="Sistema de correr">
+            <img src="fts/13.jpeg" alt="">
+            <div class="tag">Correr</div>
+          </div>
+
+          <div class="shot" data-title="Porta de giro">
+            <img src="fts/10.jpeg" alt="">
+            <div class="tag">Porta de giro - Café</div>
+          </div>
+
+          <div class="shot" data-title="Acabamento premium">
+            <img src="fts/19.jpeg" alt="">
+            <div class="tag">Acabamento</div>
+          </div>
+
+          <div class="shot" data-title="Instalação completa">
+            <img src="fts/7.jpeg" alt="">
+            <div class="tag">Instalação</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div class="container">
+        <h2 class="title">Contato</h2>
+        <p class="subtitle">
+          Quer um serviço bem feito e sem dor de cabeça? Me chama no WhatsApp.
+        </p>
+
+        <div class="contact">
+          <div class="card">
+            <h3>📍 Brasília-DF</h3>
+            <p>Atendimento para clientes residenciais, obras e serviços por indicação.</p>
+          </div>
+
+          <div class="card">
+            <h3>📲 WhatsApp</h3>
+            <p><strong>(61) 99360-1769</strong></p>
+            <p style="margin-top: 10px;">
+              <a class="btn btn-primary" href="https://wa.me/5561993601769" target="_blank">
+                Falar agora
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>
+          © <span id="year"></span> Guilherme Andrade — Instalador de Portas PORMADE • Brasília-DF
+        </p>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- MODAL -->
+  <div class="modal" id="modal">
+    <div class="modal-box">
+      <div class="modal-top">
+        <strong id="modalTitle">Foto</strong>
+        <button class="close" id="closeModal">×</button>
+      </div>
+      <img id="modalImg" class="modal-img" src="" alt="Foto ampliada">
+    </div>
+  </div>
+
+  <!-- WhatsApp flutuante -->
+  <a class="wa-float" href="https://wa.me/5561993601769" target="_blank">
+    WhatsApp
+  </a>
+
+  <script>
+    // Ano automático
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Menu mobile
+    const menuBtn = document.getElementById("menuBtn");
+    const navMobile = document.getElementById("navMobile");
+
+    menuBtn.addEventListener("click", () => {
+      menuBtn.classList.toggle("open");
+      navMobile.classList.toggle("open");
+    });
+
+    // Fecha menu ao clicar em um link
+    document.querySelectorAll(".nav-link").forEach((link) => {
+      link.addEventListener("click", () => {
+        menuBtn.classList.remove("open");
+        navMobile.classList.remove("open");
+      });
+    });
+
+    // Fecha menu se clicar fora
+    document.addEventListener("click", (e) => {
+      const isClickInsideHeader = e.target.closest("header");
+      if (!isClickInsideHeader) {
+        menuBtn.classList.remove("open");
+        navMobile.classList.remove("open");
+      }
+    });
+
+    // Modal da galeria
+    const modal = document.getElementById("modal");
+    const modalImg = document.getElementById("modalImg");
+    const modalTitle = document.getElementById("modalTitle");
+    const closeModal = document.getElementById("closeModal");
+
+    document.querySelectorAll(".shot").forEach((shot) => {
+      shot.addEventListener("click", () => {
+        const img = shot.querySelector("img");
+        modalImg.src = img.src;
+        modalTitle.textContent = shot.getAttribute("data-title") || "Foto";
+        modal.classList.add("open");
+      });
+    });
+
+    function closeModalFn(){
+      modal.classList.remove("open");
+      modalImg.src = "";
+    }
+
+    closeModal.addEventListener("click", closeModalFn);
+
+    modal.addEventListener("click", (e) => {
+      if(e.target === modal) closeModalFn();
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if(e.key === "Escape") closeModalFn();
+    });
+  </script>
+
+</body>
+</html>
